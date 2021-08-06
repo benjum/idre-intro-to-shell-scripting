@@ -27,10 +27,10 @@ def lorenz(state, t):
 lorenzsoln = integrate.odeint(lorenz, initial_state, time_points)
 
 fig = plt.figure(figsize=(5, 3))
-ax = fig.gca(projection='3d')
+plt.subplot(projection='3d')
 x = lorenzsoln[:, 0]
 y = lorenzsoln[:, 1]
 z = lorenzsoln[:, 2]
-ax.plot(x, y, z, color='g', alpha=0.7, linewidth=0.7)
+plt.plot(x, y, z, color='g', alpha=0.7, linewidth=0.7)
 
 plt.savefig('fig-sigma-'+str(sigma)+'-rho-'+str(rho)+'-beta-'+str(beta)+'.png')
