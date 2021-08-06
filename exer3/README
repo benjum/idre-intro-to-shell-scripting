@@ -1,8 +1,0 @@
-What does the following command do?
-for i in $(ls /); do ls "/$i" | wc -l; done
-
-1. change this so it only prints unique values
-
-2. assign the value to a variable
-
-3. use the values in a for loop

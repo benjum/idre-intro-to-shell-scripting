@@ -1,3 +1,9 @@
-"history" prints the past commands you've executed
-"tail -n [num] [file]" will print the last [num] lines of [file]
-Try writing a single-line command that will save your last 5 commands into a file called "last5.txt"
+"grep" is an extremely useful command
+It will search for lines matching a regular expression.
+
+Example:
+grep useful README
+-- this will search for lines in README that contain "useful"
+
+Your task:
+Use grep (and pipe) to search for all environment variables that contain "PROXY", and order them alphabetically

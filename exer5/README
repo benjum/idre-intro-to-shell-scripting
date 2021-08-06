@@ -1,0 +1,5 @@
+1. Use a for loop to iterate over each line of animal_data.txt, count the number of characters, and output the data into a file.
+
+2. If you think you can accomplish the same thing using a pipe instead of a for loop, try it and see what happens.
+
+2. Use another for loop to iterate over this new data file, and use an if statement to print out one statement when the number is greater than 17, and a different statement when it's smaller than 17.
